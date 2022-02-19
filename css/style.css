@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    float: left;
+    width: 100%;
+    height: 120px;
+    background: rgb(238, 137, 23);
+}
+.bott{
+    float: left;
+    width: 100%;
+    height: 120px;
+    background: rgb(236, 88, 150);
+}
+.boxcenter{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(9, 238, 238, 0.253);
+    min-height: 500px;
+}
+.boxleft{
+    float: left;
+    width: 30%;
+    min-height: 400px;
+    background: #00F;
+}
+.boxright{
+    width: calc(25% - 20px);
+    float: left;
+    min-height: 430px;
+    background: rgb(21, 240, 68);
+}
+.col35{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    background: rgb(209, 93, 165);
+}
+.col50{
+    width: 45%;
+    float: left;
+    min-height: 430px;
+    background: rgb(228, 231, 39);
+}
+.col25{
+    width: 100%;
+    float: left;
+    min-height: 210px;
+    background: rgb(86, 69, 238);
+}
+.mr{
+    margin-right: 10px;
+}
+.ml{
+    margin-left: 10px;
+}
+.mb{
+    margin-bottom: 10px;
+}
+.mt{
+    margin-top: 10px;
+}
+hr{
+    clear: both;
+    border: 0px;
+}
+img{
+    float: left;
+    width: 100%;
+}
+.lh{
+    line-height: 1.2;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.col50>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover{
+    color: coral;
+}
+.pd10{
+    padding: 10px;
+}
